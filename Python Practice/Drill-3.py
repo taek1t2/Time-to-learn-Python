@@ -52,14 +52,40 @@
 
 
 # Dictionary
-scores = {"Alice": 85, "Bob": 72, "Charlie": 90, "Diana": 60}
+# scores = {"Alice": 85, "Bob": 72, "Charlie": 90, "Diana": 60}
 
-for key, value in scores.items():
-    if value > 80:
-        print(key)
+# for key, value in scores.items():
+#     if value > 80:
+#         print(key)
         
-scores["Eve"] = 95
-print(scores)
+# scores["Eve"] = 95
+# print(scores)
+
+
+#Classes and objects
+# class Car:
+#     def __init__(self, make, model, year):
+#         self.make = "Toyota"
+#         self.model= "Camry"
+#         self.year= 2008
+    
+#     print(f"{self.make} {self.model} {self.year}")
+
+class Car:
+    def __init__(self, make, model, year):
+        self.make = make
+        self.model= model
+        self.year= year
+    
+    def infoDisplay(self):
+        print(f"{self.make} {self.model} {self.year}")
+
+car1 = Car("Toyota", "4runner", 2017)
+car2 = Car("Hyundai", "Elantra", 2008)
+
+car1.infoDisplay()
+car2.infoDisplay()
+
 
 
 
