@@ -1,13 +1,18 @@
-class Walker:
-    def move(self):
-        return "Walking"
+# class Walker:
+#     def move(self):
+#         return "Walking"
 
-class Runner:
-    def move(self):
-        return "Running"
+# class Runner:
+#     def move(self):
+#         return "Running"
 
-class Athlete(Walker, Runner):
-    pass
+# class Athlete(Walker, Runner):
+#     pass
 
-a = Athlete()
-print(Athlete.mro())
+# a = Athlete()
+# print(Athlete.mro())
+
+# Understanding Polymorphism and inheritance
+
+
+
