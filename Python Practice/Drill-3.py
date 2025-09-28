@@ -71,20 +71,51 @@
     
 #     print(f"{self.make} {self.model} {self.year}")
 
-class Car:
-    def __init__(self, make, model, year):
-        self.make = make
-        self.model= model
-        self.year= year
+# class Car:
+#     def __init__(self, make, model, year):
+#         self.make = make
+#         self.model= model
+#         self.year= year
     
-    def infoDisplay(self):
-        print(f"{self.make} {self.model} {self.year}")
+#     def infoDisplay(self):
+#         print(f"{self.make} {self.model} {self.year}")
 
-car1 = Car("Toyota", "4runner", 2017)
-car2 = Car("Hyundai", "Elantra", 2008)
+# car1 = Car("Toyota", "4runner", 2017)
+# car2 = Car("Hyundai", "Elantra", 2008)
 
-car1.infoDisplay()
-car2.infoDisplay()
+# car1.infoDisplay()
+# car2.infoDisplay()
+
+#String manipulation
+
+# def message(Python):
+#     print(Python.upper())
+
+#     print(Python[::-1])
+
+#     sentence = Python.split()
+#     print(len(sentence))
+
+
+# message("Python is fun")
+
+# def message(sentence):
+#     print(sentence.upper())
+#     print(sentence[::-1])
+#     print(len(sentence.split()))
+
+# message("Coding is challenging but fun at the same time.")
+
+numbers = [4, 9, 16, 25, 36, 49, 64]
+
+greater_than_20 = [num for num in numbers if num > 20]
+print(greater_than_20)
+
+odd_numbers = [num for num in numbers if num % 2 != 0]
+print(odd_numbers)
+
+
+
 
 
 
