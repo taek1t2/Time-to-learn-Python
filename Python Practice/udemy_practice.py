@@ -17,6 +17,20 @@
 
 # len(12345) len doens't like to read integers / it prefers texts
 
-print(int(1234) + int(1234))
-print(int("1234") + int("1234"))
-print(int("one") + int("two"))
+# print(int(1234) + int(1234))
+# print(int("1234") + int("1234"))
+# print(int("one") + int("two"))
+
+# int()
+# float()
+# str()
+# bool()
+
+bmi = 84 / 1.65 ** 2
+print(bmi)
+
+print(int(bmi))
+
+print(round(bmi))
+
+print(round(bmi, 2))
