@@ -106,16 +106,34 @@
 
 # message("Coding is challenging but fun at the same time.")
 
-numbers = [4, 9, 16, 25, 36, 49, 64]
+# numbers = [4, 9, 16, 25, 36, 49, 64]
 
-greater_than_20 = [num for num in numbers if num > 20]
-print(greater_than_20)
+# greater_than_20 = [num for num in numbers if num > 20]
+# print(greater_than_20)
 
-odd_numbers = [num for num in numbers if num % 2 != 0]
-print(odd_numbers)
+# odd_numbers = [num for num in numbers if num % 2 != 0]
+# print(odd_numbers)
+
+# numbers = [9, 4, 16, 25, 36, 49, 64]
+
+# greaterThan20 = [num for num in numbers if num > 20]
+# print(greaterThan20)
+
+# odd_numbers = [num for num in numbers if num % 2 != 0]
+# print(odd_numbers)
 
 
+#len method with the input method
+# question = input("What's your name?")
+# print(len(question))
 
+# print(input("How old are you?"))
+
+print("Welcome to the Band Name Generator.")
+location_question = input("Where did you grow up?\n")
+pet_name = input("What's your cat's name?\n")
+
+print("Your band name could be: " + location_question + " " + pet_name + "!")
 
 
 
