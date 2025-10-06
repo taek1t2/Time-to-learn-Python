@@ -129,13 +129,51 @@
 
 # print(input("How old are you?"))
 
-print("Welcome to the Band Name Generator.")
-location_question = input("Where did you grow up?\n")
-pet_name = input("What's your cat's name?\n")
+# print("Welcome to the Band Name Generator.")
+# location_question = input("Where did you grow up?\n")
+# pet_name = input("What's your cat's name?\n")
 
-print("Your band name could be: " + location_question + " " + pet_name + "!")
-
-
+# print("Your band name could be: " + location_question + " " + pet_name + "!")
 
 
+# i = 1
+# while i < 11:
+#     print(i)
+#     i += 1
 
+# i = 5
+# while i > 0:
+#     print(i)
+#     i -= 1 
+# print("Lift off!!")
+
+# i = 1
+# while i < 10:
+#     print(i)
+#     i += 2
+
+i =1
+while i <= 5:
+    print(i)
+    i += 1
+
+i = 0
+while i < 3:
+    print("python")
+    i += 1
+
+i = 2
+while i <= 10:
+    print(i)
+    i += 2
+
+i = 3
+while i > 0:
+    print(i)
+    i -= 1
+print("Go!")
+
+i = 1
+while i <= 4:
+    print(i * i)
+    i += 1
