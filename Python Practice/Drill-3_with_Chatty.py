@@ -152,28 +152,30 @@
 #     print(i)
 #     i += 2
 
-i =1
-while i <= 5:
-    print(i)
-    i += 1
+# i =1
+# while i <= 5:
+#     print(i)
+#     i += 1
 
-i = 0
-while i < 3:
-    print("python")
-    i += 1
+# i = 0
+# while i < 3:
+#     print("python")
+#     i += 1
 
-i = 2
-while i <= 10:
-    print(i)
-    i += 2
+# i = 2
+# while i <= 10:
+#     print(i)
+#     i += 2
 
-i = 3
-while i > 0:
-    print(i)
-    i -= 1
-print("Go!")
+# i = 3
+# while i > 0:
+#     print(i)
+#     i -= 1
+# print("Go!")
 
-i = 1
-while i <= 4:
-    print(i * i)
-    i += 1
+# i = 1
+# while i <= 4:
+#     print(i * i)
+#     i += 1
+
+
