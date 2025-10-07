@@ -1,0 +1,69 @@
+# Data Types
+
+# Strings and index
+print("Hello - My name is Taeyeon Kim"[-5])
+
+#How to declare an integer
+print(123 + 245)
+
+#Large Integers
+print(12_456_500)
+
+#Float = Floating Point Number
+print(3.14159)
+
+#Boolean
+print(True)
+print(False)
+
+name = input("Enter the name")
+length_of_name = len(name)
+
+print(type("Number of letters in your name: "))
+print(type(length_of_name))
+
+print("Number of letters in your name: " + str(length_of_name))
+
+# Operations
+print("My age: " + str(12))
+print(1 +1) #addition
+print(7-3) #Subtraction
+print(3*2)  #multiplication
+print(6/3) #Division with float
+print(6//3) #Division with integer
+print(2**3) #Square with integer
+
+#PEMDAS - Parentheses, Exponents, Multiplication / Division, Addition / Subtraction
+
+print(3 * (3 + 3 / 3 - 3))
+
+#or
+
+print(3 * (3 + 3) / 3 - 3)
+
+# Number Manipulation
+bmi = 84 / 1.65 ** 2
+print(bmi)
+
+print(int(bmi))
+
+print(round(bmi))
+
+print(round(bmi, 2))
+
+
+score = 0
+
+score += 1
+# score -= 1
+# score *= 1
+# score /= 1
+
+print(score)
+
+#f-strings
+score = 0
+height = 3.5
+is_winning = True
+
+print(f"Your score is = {score}, your height is {height}. You are winning is {is_winning}")
