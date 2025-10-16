@@ -5,8 +5,8 @@ random.shuffle(cards)
 start_blackjack = input("Do you want to play a game of Blackjack? (y/n) \n").lower()
 print("\n" * 25)
 
-import art
-print(art.logo)
+import blackjack_art
+print(blackjack_art.logo)
 
 player_hand = []
 computer_hand = []
